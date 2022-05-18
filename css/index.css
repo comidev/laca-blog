@@ -1,0 +1,233 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: max-content;
+}
+
+.header img {
+    height: 100%;
+    max-height: 30vh;
+}
+
+/* CUERPO */
+
+.global_container {
+    display: flex;
+}
+
+/* ===== COLUMNA IZQUIERDA ===== */
+.column_left {
+    width: 100%;
+    padding-right: 3rem;
+}
+
+.trabajos {
+    min-width: 51rem;
+    overflow: auto;
+}
+
+.especificacion {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.especificacion span {
+    color: var(--color-text-black);
+}
+
+.btn-silabo {
+    margin: 0.5rem auto 2rem;
+}
+
+/* ====== TRABAJOS ====== */
+
+.trabajo {
+    display: flex;
+    padding: 0.5rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.title__container {
+    display: flex;
+    justify-content: center;
+}
+
+.title__content {
+    border-radius: 9999px;
+    background-color: #0099ff22;
+    color: #171717;
+    max-width: max-content;
+    padding: 0.5rem 0.8rem;
+    font-weight: 600;
+}
+
+/* SEMANAS */
+.column01 {
+    width: 6rem;
+    display: flex;
+    color: var(--color-text-black);
+    align-items: center;
+    justify-content: center;
+}
+
+/* TEMAS */
+.column02 {
+    width: 100%;
+    color: var(--color-text-black);
+    max-width: calc((100% - 6rem) / 2);
+    padding-left: 0.5rem;
+}
+
+.column02 ul {
+    list-style: disc;
+    margin-left: 1.2rem;
+}
+
+/* CLASES */
+.column03 {
+    width: 100%;
+    max-width: calc((100% - 6rem) / 4);
+}
+
+.list-link li {
+    display: grid;
+    margin-bottom: 0.3rem;
+}
+
+.trabajo__link {
+    display: flex;
+    align-items: center;
+    max-width: max-content;
+    word-break: break-all;
+    font-size: 14px;
+    background-color: #87f;
+    padding: 0.3rem 0.5rem;
+    border-radius: 9999px;
+    color: #fff;
+    font-weight: 600;
+    margin: auto;
+    transition: none;
+}
+
+.trabajo__link:hover {
+    background-color: #eaeaea;
+    color: #171717;
+}
+
+.ppt {
+    background-color: rgb(211, 82, 48);
+}
+
+.word {
+    background-color: rgb(24, 90, 189);
+}
+
+/* TAREAS */
+.column04 {
+    width: 100%;
+    max-width: calc((100% - 6rem) / 4);
+}
+
+/* =============== COLUMNA DERECHA =============== */
+.column_right {
+    max-width: 20rem;
+    width: 100%;
+    height: min-content;
+    top: 0;
+}
+
+/* ====== INTEGRANTES ====== */
+
+.integrantes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    gap: 0.5rem;
+}
+
+.integrante {
+    display: inline-block;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.img_perfil {
+    width: 100%;
+    aspect-ratio: 1;
+    margin: auto;
+}
+
+.img_perfil img {
+    height: 100%;
+}
+
+.info {
+    margin: auto;
+    padding: 0.5rem;
+}
+
+/*  ===== PROFESOR  ===== */
+
+.integrante_profesor {
+    display: flex;
+    max-width: 20rem;
+    width: 100%;
+}
+
+/* ===== GRUPOS  ===== */
+
+.grupos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(4.2rem, 1fr));
+    gap: 1rem;
+}
+
+.grupos li {
+    display: grid;
+}
+
+.grupo {
+    width: max-content;
+    height: 100%;
+    padding: 0.2rem 0.3rem;
+    color: #09f;
+    background-color: #5577ff22;
+    font-weight: 600;
+    border-radius: 9999px;
+}
+
+.grupo:hover {
+    background-color: #5577ff44;
+}
+
+.main {
+    padding: 4rem 0.5rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--color-black);
+    color: var(--color-text-white);
+    font-size: 13px;
+    height: 2rem;
+}
+
+@media screen and (max-width: 1060px) {
+    .global_container {
+        flex-direction: column-reverse;
+    }
+
+    .column_right {
+        max-width: 100%;
+    }
+
+    .column_left {
+        padding-right: 0;
+    }
+}
