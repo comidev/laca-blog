@@ -1,8 +1,23 @@
+const getNumSemana = (numSemana) => {
+    if (numSemana < 4) {
+        return numSemana;
+    }
+    const newNumSemana = numSemana + 1;
+
+    if (numSemana === 4) {
+        return `${numSemana} / ${newNumSemana}`;
+    } else {
+        return `${newNumSemana}`;
+    }
+};
+
 const Trabajo = (index, clases, tareas) => {
+    const numSemana = index + 1;
+
     return `
     <article class="trabajo">
         <div class="column01">
-            <span>${index + 1}</span>
+            <span>${getNumSemana(numSemana)}</span>
         </div>
         <div class="column02">
             <p>${SILABO[index].tema}</p>

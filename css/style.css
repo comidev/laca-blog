@@ -119,10 +119,13 @@ html {
 body {
     font-family: "Inter", sans-serif;
     word-wrap: break-word;
-    background-color: var(--color-white);
 
     display: flex;
     flex-direction: column;
+
+    /* min-width: min-content; */
+    overflow-x: hidden;
+
     min-height: 100vh;
 }
 
@@ -130,6 +133,7 @@ main {
     /* background-image: url("../../assets/images/blob-scene-haikei.svg");
     background-size: cover; */
     padding-top: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 h1,
@@ -158,7 +162,6 @@ h4 {
 }
 
 p {
-    line-height: 1.7rem;
     margin: 0;
 }
 
