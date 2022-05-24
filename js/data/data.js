@@ -25,6 +25,62 @@ const TRABAJOS = [
             },
         ],
     },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
+    {
+        clases: [],
+        tareas: [],
+    },
 ];
 
 const GRUPOS = [
