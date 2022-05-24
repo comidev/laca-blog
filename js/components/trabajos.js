@@ -30,7 +30,7 @@ const Trabajo = (index, clases, tareas) => {
                 .map(
                     (item) => `
                     <li>
-                        <a href="${item.url}" class="trabajo__link ${item.type}">${item.name}</a>
+                        <a href="${item.url}" target="_blank" class="trabajo__link ${item.type}">${item.name}</a>
                     </li>`
                 )
                 .join("")}
@@ -40,7 +40,7 @@ const Trabajo = (index, clases, tareas) => {
                 .map(
                     (item) => `
                         <li>
-                            <a href="${item.url}" class="trabajo__link ${item.type}">${item.name}</a>
+                            <a href="${item.url}" target="_blank" class="trabajo__link ${item.type}">${item.name}</a>
                         </li>`
                 )
                 .join("")}

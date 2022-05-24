@@ -2,31 +2,62 @@ const TRABAJOS = [
     {
         clases: [
             {
-                name: "Clase 01 A",
-                url: "ss",
+                name: "Clase 01",
+                url: "https://docs.google.com/presentation/d/1hcpUtD1nbhYDeQLzV3FAJAmE02qHbToz/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
                 type: "ppt",
             },
+        ],
+        tareas: [],
+    },
+    {
+        clases: [
             {
-                name: "Clase 01 B",
-                url: "ss",
+                name: "Clase 02",
+                url: "https://docs.google.com/presentation/d/1ZI0jMaRLcOf_ZQJk0jIA-iCqwIN77Kx_/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
                 type: "ppt",
             },
         ],
         tareas: [
             {
                 name: "Exposición Semana 1",
-                url: "ss",
-                type: "ppt",
+                url: "https://docs.google.com/presentation/d/1y3hz-yYX-hG6mJh9VAX3d0EGCo-aEhrh/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
+                type: "word",
             },
             {
                 name: "Exposición Semana 2",
-                url: "ss",
-                type: "ppt",
+                url: "https://docs.google.com/presentation/d/1UuZ0u6FsmbgbNigH5W22zBKJs-JQGnQB/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
+                type: "word",
             },
         ],
     },
     {
-        clases: [],
+        clases: [
+            {
+                name: "Clase 03",
+                url: "https://docs.google.com/presentation/d/1gXSVTcMAdZ0G_bkb5Ufz9aWjbK9Hm1XU/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
+                type: "ppt",
+            },
+        ],
+        tareas: [],
+    },
+    {
+        clases: [
+            {
+                name: "Clase 4/5",
+                url: "https://docs.google.com/presentation/d/1AsK1YZAfYO9RTZPDm8jMsLOzm2Q-IeKd/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
+                type: "ppt",
+            },
+        ],
+        tareas: [],
+    },
+    {
+        clases: [
+            {
+                name: "Clase 06",
+                url: "https://docs.google.com/presentation/d/1fxRx9Co77pOfBynXWp25yqaHs8WhXMu-/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
+                type: "ppt",
+            },
+        ],
         tareas: [],
     },
     {
@@ -38,39 +69,63 @@ const TRABAJOS = [
         tareas: [],
     },
     {
-        clases: [],
+        clases: [
+            {
+                name: "Clase 09",
+                url: "https://docs.google.com/presentation/d/1cRHOZh6P6RuIuUNwDlyXGrN4B6D96Soz/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
+                type: "ppt",
+            },
+        ],
         tareas: [],
     },
     {
-        clases: [],
+        clases: [
+            {
+                name: "Clase 10",
+                url: "https://docs.google.com/presentation/d/1vPh-MGQByUqZvH5rU1TYfN5zRKrOhmhS/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
+                type: "ppt",
+            },
+        ],
         tareas: [],
     },
     {
-        clases: [],
+        clases: [
+            {
+                name: "Clase 11",
+                url: "https://docs.google.com/presentation/d/16b0nZsjOWILHttNm-0qeKQH0Luo_6lMb/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
+                type: "ppt",
+            },
+        ],
         tareas: [],
     },
     {
-        clases: [],
+        clases: [
+            {
+                name: "Clase 12",
+                url: "https://docs.google.com/presentation/d/1CkGUTvoCdvKqPxmTClZDpw-4eFp_lxB6/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
+                type: "ppt",
+            },
+        ],
         tareas: [],
     },
     {
-        clases: [],
+        clases: [
+            {
+                name: "Clase 13",
+                url: "https://docs.google.com/presentation/d/1zBo0Bi2iS_Ws2t1Th69kOFF9BdMZNQn8/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
+                type: "ppt",
+            },
+        ],
         tareas: [],
     },
     {
-        clases: [],
-        tareas: [],
-    },
-    {
-        clases: [],
-        tareas: [],
-    },
-    {
-        clases: [],
-        tareas: [],
-    },
-    {
-        clases: [],
+        clases: [
+            {
+                name: "Clase 14",
+                url: "https://docs.google.com/presentation/d/1s-NMN91hkJ23gmj0hl7GukbcnL7HXgtI/edit?usp=sharing&ouid=117090337066293210322&rtpof=true&sd=true",
+                type: "ppt",
+            },
+        ],
         tareas: [],
     },
     {
@@ -90,55 +145,55 @@ const GRUPOS = [
     },
     {
         num: 2,
-        url: "ss",
+        url: "/",
     },
     {
         num: 3,
-        url: "ss",
+        url: "/",
     },
     {
         num: 4,
-        url: "ss",
+        url: "/",
     },
     {
         num: 5,
-        url: "ss",
+        url: "/",
     },
     {
         num: 6,
-        url: "ss",
+        url: "https://inteligenciaartficialwebg6.blogspot.com/",
     },
     {
         num: 7,
-        url: "ss",
+        url: "/",
     },
     {
         num: 8,
-        url: "ss",
+        url: "/",
     },
     {
         num: 9,
-        url: "ss",
+        url: "/",
     },
     {
         num: 10,
-        url: "ss",
+        url: "/",
     },
     {
         num: 11,
-        url: "ss",
+        url: "https://kevinpantoja.github.io/WebInteligenciaArtificial/",
     },
     {
         num: 12,
-        url: "ss",
+        url: "/",
     },
     {
         num: 13,
-        url: "ss",
+        url: "/",
     },
     {
         num: 14,
-        url: "ss",
+        url: "/",
     },
 ];
 

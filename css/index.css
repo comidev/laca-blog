@@ -99,7 +99,7 @@
 .especificaciones {
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 2rem;
-    padding: 2rem;
+    padding: 2rem 2rem 0rem;
     margin-bottom: 2rem;
 }
 
@@ -125,7 +125,8 @@
 .trabajos {
     width: 100%;
     overflow-x: auto;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .trabajos_scroll {
@@ -208,15 +209,20 @@
 }
 
 .ppt {
-    color: rgb(247, 113, 76);
+    background-color: rgb(247, 113, 76);
+    border-color: rgb(247, 113, 76);
+    color: #fff;
 }
 
 .word {
-    color: rgb(30, 110, 230);
+    background-color: rgb(51, 116, 214);
+    border-color:  rgb(51, 116, 214);
+    color: #fff;
 }
 
 .trabajo__link:hover {
-    color: var(--color-white);
+    background-color: transparent;
+    color: #fff;
 }
 
 /* TAREAS */
@@ -281,11 +287,17 @@
     font-size: 0.9rem;
 }
 
+.portafolio {
+    display: flex;
+    margin: 0 auto 2rem;
+}
+
 /* ===== GRUPOS  ===== */
 
 .grupos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .grupos li {
@@ -296,7 +308,7 @@
 }
 
 .grupo {
-    width: max-content;
+    width: 4.9rem;
     height: 100%;
     padding: 0.2rem 0.3rem;
     color: #0099ff;
